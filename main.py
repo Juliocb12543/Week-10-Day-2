@@ -4,6 +4,7 @@
 from dynamic_functions import check_3Digits
 # # method_help()
 # #function()
+
 # welcome("Julio")
 # added = add_numbers(4, 5)
 # print(added)
@@ -16,5 +17,6 @@ from dynamic_functions import check_3Digits
 # print(power(3,2))
 # print(usd_to_eur(300))
 # reverse_word()
-result =check_3Digits(789)
+#sum = 567 + 345
+result =check_3Digits([55, 969, 609, 780, 340, 78, 876, 934, 56, 974])
 print(result)
