@@ -1,9 +1,10 @@
 # from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet, welcome1, square
 #from returnStuff import power, usd_to_eur, reverse_word
-from dynamic_functions import check_3Digits, all_positives
+#from dynamic_functions import check_3Digits, all_positives
 # # method_help()
 # #function()
+from function_interactions import mix_sticks
 
 # welcome("Julio")
 # added = add_numbers(4, 5)
@@ -18,7 +19,10 @@ from dynamic_functions import check_3Digits, all_positives
 # print(usd_to_eur(300))
 # reverse_word()
 #sum = 567 + 345
-result =check_3Digits([55, 969, 609, 780, 340, 78, 876, 934, 56, 974])
-print(result)
-result2 = all_positives([10, 45, 9, -9, 6, 46])
-print(result2)
+#result = check_3Digits([55, 969, 609, 780, 340, 78, 876, 934, 56, 974])
+#print(result)
+#result2 = all_positives([10, 45, 9, -9, 6, 46])
+#print(result2)
+sticks = ["-", "--", "---", "----", "-----"]
+my_mix = mix_sticks(sticks)
+print(my_mix)
