@@ -4,7 +4,7 @@
 #from dynamic_functions import check_3Digits, all_positives
 # # method_help()
 # #function()
-from function_interactions import mix_sticks
+from function_interactions import mix_sticks, try_your_luck, verify_number
 
 # welcome("Julio")
 # added = add_numbers(4, 5)
@@ -26,3 +26,8 @@ from function_interactions import mix_sticks
 sticks = ["-", "--", "---", "----", "-----"]
 my_mix = mix_sticks(sticks)
 print(my_mix)
+
+num = try_your_luck()
+print(num)
+
+print(verify_number(my_mix, num))
